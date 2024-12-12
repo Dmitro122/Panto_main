@@ -17,7 +17,7 @@
 		{
 			"id": "chair3",
 			"type": "Chair",
-			"img": "../img/product/chair2.png",
+			"img": "./img/product/chair2.png",
 			"name": "Anjay Chair",
 			"price": 519
 		},
