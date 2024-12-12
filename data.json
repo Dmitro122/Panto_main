@@ -3,14 +3,14 @@
 		{
 			"id": "chair1",
 			"type": "Chair",
-			"img": "../img/product/chair.png",
+			"img": "./img/product/chair.png",
 			"name": "Sakarias Armchair",
 			"price": 392
 		},
 		{
 			"id": "chair2",
 			"type": "Chair",
-			"img": "../img/product/chair1.png",
+			"img": "./img/product/chair1.png",
 			"name": "Baltsar Chair",
 			"price": 299
 		},
@@ -24,7 +24,7 @@
 		{
 			"id": "chair4",
 			"type": "Chair",
-			"img": "../img/product/chair3.png",
+			"img": "./img/product/chair3.png",
 			"name": "Nyantuy Chair",
 			"price": 921
 		}
