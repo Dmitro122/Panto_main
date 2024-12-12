@@ -651,19 +651,19 @@ header .search .start_serach:active {
 }
 
 .testimonials .section .card .img_holder.first {
-	background-image: url(/img/phot_man1.png);
+	background-image: url(./img/phot_man1.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .testimonials .section .card .img_holder.second {
-	background-image: url(/img/photo_woman1.png);
+	background-image: url(./img/photo_woman1.png);
 	background-size: cover;
 	background-position: center;
 }
 
 .testimonials .section .card .img_holder.third {
-	background-image: url(/img/photo_woman2.png);
+	background-image: url(./img/photo_woman2.png);
 	background-size: cover;
 	background-position: center;
 }
