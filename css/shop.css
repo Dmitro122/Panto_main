@@ -1,0 +1,46 @@
+:root {
+	--main-color: #1E1E1E;
+	--accent-color: #FFFFFF;
+	--butoon-color: #E58411;
+	--butoon-accent-color: #0D1B39;
+	--alt-accent-color: #8D8D8D;
+	--stars-color: #F6B76F;
+	--btn-shadow: rgba(0, 0, 0, 0.118);
+	--alt-bg: #F7F7F7;
+}
+
+body {
+	background-color: #dfdfdf;
+}
+
+.nav {
+	background-color: var(--main-color);
+}
+
+.shop_content {
+	margin-top: 150px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	margin-bottom: 100px;
+}
+
+.list .card {
+	display: flex;
+	flex-direction: column;
+
+	width: 250px;
+	height: 400px;
+	background-color: var(--alt-accent-color);
+	border-radius: 20px;
+	padding: 20px;
+	padding-bottom: 25px;
+}
+
+.list .card .stars {
+	margin-bottom: 10px;
+}
+
+.list .item.card .bottom {
+	padding-bottom: 0px;
+}

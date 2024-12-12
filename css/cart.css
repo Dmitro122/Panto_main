@@ -1,0 +1,185 @@
+/* COLOR */
+:root {
+	--main-color: #1E1E1E;
+	--accent-color: #FFFFFF;
+	--butoon-color: #E58411;
+	--butoon-accent-color: #0D1B39;
+	--alt-accent-color: #8D8D8D;
+	--stars-color: #F6B76F;
+	--btn-shadow: rgba(0, 0, 0, 0.118);
+	--alt-bg: #F7F7F7;
+}
+
+/* COLOR */
+
+
+h1 {
+	padding-top: 300px;
+}
+
+.nav {
+	background-color: var(--main-color);
+}
+
+.section {
+	margin-top: 100px;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section .card {
+	display: flex;
+	min-width: 100%;
+	border-bottom: 1px solid var(--alt-accent-color);
+	max-width: 370px;
+	padding: 20px;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+}
+
+.section .card img {
+	height: 300px;
+}
+
+.fa-minus {
+	pointer-events: none;
+}
+
+.fa-trash-can {
+	pointer-events: none;
+}
+
+.buy {
+	display: none;
+}
+
+.buy.active {
+	display: block;
+	margin-bottom: 50px;
+	width: 250px;
+	height: 50px;
+	border: none;
+	border-radius: 50px;
+	background-color: var(--butoon-color);
+	color: var(--accent-color);
+	font-size: 22px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.title {
+	display: none;
+}
+
+.title.active {
+	display: block;
+}
+
+.payment {
+	display: none;
+}
+
+.payment.active {
+	display: block;
+	margin-bottom: 30px;
+}
+
+.vignette.active {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.597);
+}
+
+
+
+
+
+.vignette.active .wrap {
+	top: 100px;
+	position: fixed;
+	width: 600px;
+	height: 450px;
+	background-color: var(--accent-color);
+	border-radius: 20px;
+}
+
+.popup.active {
+	z-index: 4;
+	position: relative;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.vignette .wrap .close {
+	z-index: 5;
+	display: none;
+}
+
+
+.vignette.active .wrap .close {
+	display: block;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 20px;
+	border: none;
+	color: var(--accent-color);
+	background-color: var(--butoon-accent-color);
+	font-size: 10px;
+}
+
+.wrap .popup.active .title {
+	padding: 0;
+	padding-top: 30px;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.wrap .popup .email_input {
+	display: none;
+}
+
+.wrap .popup.active .email_input {
+	display: inline;
+	width: 300px;
+	height: 40px;
+	border-radius: 10px;
+	border: none;
+	background-color: var(--btn-shadow);
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.wrap .popup.active .email_input:focus-visible {
+	outline: none;
+}
+
+.wrap .popup .submit {
+	display: none;
+}
+
+.wrap .popup.active .submit {
+	display: block;
+	position: absolute;
+	bottom: 70px;
+	width: 200px;
+	height: 50px;
+	font-size: 23px;
+	background-color: var(--main-color);
+	color: var(--accent-color);
+	border: none;
+	border-radius: 20px;
+}

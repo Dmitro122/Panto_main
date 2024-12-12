@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/nav.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="./css/cart.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<title>Document</title>
+</head>
+
+<body>
+	<script src="https://kit.fontawesome.com/7929af6995.js" crossorigin="anonymous"></script>
+	<nav class="nav">
+		<a href="./index.html" class="logo">Panto</a>
+		<ul class="list">
+			<li class="nav_link item drop_down">
+				<span href="" class="link">Furniture</span>
+				<div class="burger">
+					<a href="" class="link">Beds</a>
+					<a href="" class="link">Chair</a>
+					<a href="" class="link">All</a>
+				</div>
+			</li>
+			<li class="nav_link item"><a href="./shop.html" class="link">Shop</a></li>
+			<li class="nav_link item"><a href="./index.html#About" class="link">About Us</a></li>
+			<li class="nav_link item"><a href="./index.html#Footer" class="link">Contact</a></li>
+		</ul>
+		<a href="./cart.html" class="shopping_cart"><i class="fa-solid fa-basket-shopping"></i> <span
+				class="count">0</span></a>
+	</nav>
+
+	<div class="vignette">
+		<div class="wrap">
+			<button class="close"><i class="fa-solid fa-x"></i></button>
+			<form class="popup" action="http://localhost:8080/send-email" method="post">
+				<h1 class="title">Enter your email address to place your order</h1>
+				<input class="email_input" type="text" placeholder="Email">
+				<button type="submit" class="submit">Submit</button>
+			</form>
+		</div>
+	</div>
+
+	<h1 class="title">The cart is now empty</h1>
+
+	<ul class="section">
+
+	</ul>
+
+	<section class="buy_product">
+		<div class="payment">Payment for the order: <i class="fa-solid fa-dollar-sign dollar"></i> <span
+				class="order_cost"></span></div>
+		<button type="button" class="buy">Take order</button>
+	</section>
+
+	<footer id="Footer" class="footer">
+		<section class="top">
+			<ul class="list">
+				<li class="item"><a href="" class="logo">Panto</a></li>
+				<li class="item">
+					<p class="text">The advantage of hiring a workspace with us is that givees you comfortable service
+						and all-around facilities.</p>
+				</li>
+			</ul>
+			<ul class="list">
+				<li class="item"><span class="subtitle">Services</span></li>
+				<li class="item"><a href="" class="link">Services</a></li>
+				<li class="item"><a href="" class="link">Campaigns</a></li>
+				<li class="item"><a href="" class="link">Branding</a></li>
+			</ul>
+			<ul class="list">
+				<li class="item"><span class="subtitle">Furniture</span></li>
+				<li class="item"><a href="" class="link">Beds</a></li>
+				<li class="item"><a href="" class="link">Chair</a></li>
+				<li class="item"><a href="" class="link">All</a></li>
+			</ul>
+			<ul class="list">
+				<li class="item"><span class="subtitle">Follow Us</span></li>
+				<li class="item"><i class="fa-brands fa-facebook-f"></i> <a href="" class="link">Facebook</a></li>
+				<li class="item"><i class="fa-brands fa-twitter"></i> <a href="" class="link">Twitter</a></li>
+				<li class="item"><i class="fa-brands fa-instagram"></i> <a href="" class="link">Instagram</a></li>
+			</ul>
+		</section>
+		<section class="bottom">
+			<span class="text accent">Copyright © 2021</span>
+			<span class="text_wrap">
+				<span class="text">Terms & Conditions</span>
+				<span class="text">Privacy Policy</span>
+			</span>
+		</section>
+	</footer>
+
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="./js/nav_script.js"></script>
+	<script src="./js/cart.js"></script>
+	<script src="./js/render-cart.js"></script>
+	<script src="./js/take_order.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,760 @@
+/* COLOR */
+:root {
+	--main-color: #1E1E1E;
+	--accent-color: #FFFFFF;
+	--butoon-color: #E58411;
+	--butoon-accent-color: #0D1B39;
+	--alt-accent-color: #8D8D8D;
+	--stars-color: #F6B76F;
+	--btn-shadow: rgba(0, 0, 0, 0.118);
+	--alt-bg: #F7F7F7;
+}
+
+/* COLOR */
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Poppins";
+	padding: 0;
+	margin: 0;
+	font-weight: 500;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+.img {
+	width: 629px;
+	height: 445px;
+}
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+header {
+	background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), #ffffff), url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+	height: 1084px;
+	background-color: var(--main-color);
+	color: var(--accent-color);
+	margin-bottom: 50px;
+}
+
+.nav {
+	padding: 10px;
+	z-index: 10;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	transition: 0.3s;
+}
+
+.nav.sticky {
+	background-color: #1e1e1ec5;
+}
+
+.nav .logo {
+	font-weight: 700;
+	font-size: 28px;
+	color: var(--accent-color);
+}
+
+.nav .list {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav .list .item .link {
+	color: var(--accent-color);
+}
+
+.nav .shopping_cart {
+	color: var(--accent-color);
+	display: flex;
+	transition: 0.3s;
+}
+
+.nav .shopping_cart:hover {
+	scale: 1.1;
+}
+
+.nav .count {
+	text-align: center;
+	height: 25px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 5px;
+	border-radius: 30px;
+	background-color: var(--butoon-color);
+}
+
+header .title {
+	width: 1000px;
+	font-weight: 600;
+	font-size: 80px;
+}
+
+header .text {
+	width: 600px;
+	font-size: 24px;
+	font-weight: 100;
+}
+
+header .search {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-top: 50px;
+	width: 335px;
+	height: 45px;
+	border: solid var(--accent-color) 1px;
+	border-radius: 50px;
+	background-color: #ffffff2a;
+}
+
+header .search input {
+	color: var(--accent-color);
+	height: 100%;
+	width: 90%;
+	font-size: 18px;
+	border: none;
+	background: none;
+}
+
+header .search input:focus-visible {
+	outline: none;
+}
+
+header .search .start_serach {
+	color: var(--accent-color);
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 50px;
+	background: var(--butoon-color);
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+header .search .start_serach:hover {
+	padding: 0.5px;
+	background: #b4690e;
+}
+
+header .search .start_serach:active {
+	color: var(--main-color);
+	background: var(--accent-color);
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MAIN STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MAIN STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MAIN STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MAIN STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! MAIN STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Why Choosing Us !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Why Choosing Us !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.hero_why_chosing_us {
+	padding: 5%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100 px;
+}
+
+.hero_why_chosing_us .main_title {
+	width: 280px;
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.hero_why_chosing_us .block {
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero_why_chosing_us .block .title {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+
+.hero_why_chosing_us .block .text {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+
+.hero_why_chosing_us .block .link {
+	color: var(--butoon-color);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.hero_why_chosing_us .block .arrow {
+	margin-left: 10px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Best Selling Product !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Best Selling Product !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+
+.selling_product {
+	padding: 5%;
+	padding-top: 30px;
+	background-color: #F7F7F7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 200px;
+}
+
+.selling_product .title {
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.selling_product .btn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: var(--accent-color);
+	border: none;
+	border-radius: 50px;
+	box-shadow: 2px 2px 2px var(--btn-shadow);
+	font-size: 18px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.selling_product .btn:active {
+	background-color: var(--butoon-color);
+	color: var(--accent-color);
+}
+
+.selling_product .btn.left {
+	left: 30px;
+	margin-top: 200px;
+}
+
+.selling_product .btn.right {
+	right: 35px;
+	margin-top: 200px;
+}
+
+.selling_product .list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.selling_product .radio_list {
+	width: 350px;
+	background: #EEEEEE;
+	border-radius: 50px;
+	padding: 15px;
+}
+
+.selling_product .radio_list .item {
+	padding: 15px;
+	border-radius: 50px;
+	text-align: start;
+}
+
+.selling_product .radio_list .item.active {
+	background: var(--accent-color);
+}
+
+.selling_product .list .item {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.selling_product .list .item input {
+	display: none;
+}
+
+.selling_product .wrap {
+	width: 100%;
+}
+
+.list .item.card {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20px;
+	background-color: #FAFAFA;
+	border-radius: 20px;
+	min-width: 270px;
+}
+
+.list .item.card img {
+	transform: scale(-1, 1);
+	display: block;
+	height: 220px;
+	margin-bottom: 20px;
+}
+
+.list .item.card .bottom {
+	background: var(--accent-color);
+	border-radius: 0 0 20px 20px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.item.card .type {
+	padding-left: 15px;
+	display: block;
+	color: var(--alt-accent-color);
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.item.card .name {
+	padding-left: 15px;
+	display: block;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.item.card .stars {
+	padding-left: 15px;
+	display: block;
+	color: var(--stars-color);
+	margin-bottom: 60px;
+}
+
+.list .item.card .wrap {
+	width: 90%;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item.card .wrap .dollar {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.item.card .wrap .cost {
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.item.card .wrap .add {
+	color: var(--accent-color);
+	font-size: 25px;
+	background-color: var(--butoon-accent-color);
+	border: none;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.item.card .wrap .add.active {
+	transition: all 0.5s;
+	transform: rotate(45deg);
+	background-color: var(--butoon-color);
+}
+
+.item.card .wrap .add .fa-plus {
+	pointer-events: none;
+}
+
+.selling_product .link {
+	color: var(--butoon-color);
+	font-weight: 500;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Experiences !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Experiences !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.experiences {
+	display: flex;
+	margin-bottom: 200px;
+}
+
+.experiences .img {
+	position: absolute;
+	left: -50px;
+	border-radius: 25px;
+}
+
+.experiences .img_holder {
+	display: block;
+	min-width: 629px;
+	height: 445px;
+}
+
+.experiences .wrap {
+	width: 560px;
+	margin-left: 100px;
+}
+
+.experiences .subtitle {
+	text-transform: uppercase;
+	color: var(--butoon-color);
+}
+
+.experiences .title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+	font-size: 46px;
+	font-weight: 700px;
+}
+
+.experiences .text {
+	font-weight: 400px;
+}
+
+.experiences .link {
+	color: var(--butoon-color);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Materials !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Materials !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.materials {
+	position: relative;
+	display: flex;
+	margin-bottom: 200px;
+}
+
+.materials .img {
+	position: absolute;
+	border-radius: 25px;
+}
+
+
+.materials .img.first {
+	background-image: url(/img/photo2.jpg);
+	background-position: bottom;
+	background-size: 250%;
+	background-repeat: no-repeat;
+	right: 500px;
+	top: -120px;
+	width: 220px;
+	height: 220px;
+}
+
+.materials .img.second {
+	background-image: url(/img/photo3.jpg);
+	background-position: right;
+	transform: scale(-1, 1);
+	background-size: 250%;
+	background-repeat: no-repeat;
+	right: 500px;
+	top: 125px;
+	width: 220px;
+	height: 320px;
+}
+
+.materials .img.third {
+	background-image: url(/img/photo4.jpg);
+	background-size: cover;
+	background-position: right;
+	width: 400px;
+	height: 445px;
+	right: 0px;
+	transform: scale(-1, 1);
+	border-radius: 0px 50px 50px 0px;
+}
+
+.materials .img_holder {
+	display: block;
+	min-width: 629px;
+	height: 445px;
+}
+
+.materials .wrap {
+	width: 560px;
+	margin-left: 100px;
+}
+
+.materials .subtitle {
+	text-transform: uppercase;
+	color: var(--butoon-color);
+}
+
+.materials .title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 600px;
+	font-size: 46px;
+	font-weight: 700px;
+}
+
+.materials .text {
+	font-weight: 400px;
+}
+
+.materials .link {
+	color: var(--butoon-color);
+	font-size: 14px;
+	font-weight: 500;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Testimonials !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! Testimonials !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.testimonials {
+	position: relative;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.testimonials .subtitle {
+	color: var(--butoon-color);
+	text-transform: uppercase;
+}
+
+.testimonials .title {
+	font-size: 42px;
+	font-weight: 700;
+}
+
+.testimonials .btn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: none;
+	background-color: var(--accent-color);
+	box-shadow: 2px 2px 2px var(--btn-shadow);
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.1s;
+}
+
+.testimonials .btn:active {
+	background-color: var(--butoon-color);
+	color: var(--accent-color);
+}
+
+.testimonials .btn.left {
+	top: 300px;
+	left: 50px;
+}
+
+.testimonials .btn.right {
+	top: 300px;
+	right: 50px;
+}
+
+.testimonials .section {
+	min-width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.testimonials .section .card {
+	display: flex;
+	flex-direction: column-reverse;
+
+	width: 320px;
+	max-width: 370px;
+	height: 480px;
+	background-color: var(--alt-accent-color);
+	border-radius: 20px;
+	padding: 20px;
+	padding-bottom: 25px;
+}
+
+.testimonials .section .card.first {
+	background-image: url(/img/bg1.jpg);
+	background-size: cover;
+}
+
+.testimonials .section .card.second {
+	background-image: url(/img/bg2.jpg);
+	background-size: cover;
+}
+
+.testimonials .section .card.third {
+	background-image: url(/img/bg3.jpg);
+	background-size: cover;
+}
+
+.testimonials .section .card .wrap {
+	position: relative;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--accent-color);
+	max-height: 250px;
+	min-height: 250px;
+	width: 100%;
+	border-radius: 20px;
+}
+
+
+.testimonials .section .card .img_holder {
+	position: absolute;
+	top: -25px;
+	min-width: 50px;
+	min-height: 50px;
+	border-radius: 50px;
+	border: 5px solid var(--accent-color);
+	background-color: var(--butoon-accent-color);
+}
+
+.testimonials .section .card .img_holder.first {
+	background-image: url(/img/phot_man1.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.testimonials .section .card .img_holder.second {
+	background-image: url(/img/photo_woman1.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.testimonials .section .card .img_holder.third {
+	background-image: url(/img/photo_woman2.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.testimonials .section .card .title_name {
+	font-size: 22px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.testimonials .section .card .subtitle {
+	color: var(--main-color);
+	font-size: 12px;
+	font-weight: 400;
+}
+
+
+.testimonials .section .card .text {
+	font-size: 14px;
+	width: 250px;
+	min-height: 80px;
+}
+
+.testimonials .section .card .stars {
+	color: var(--stars-color);
+}
+
+
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!! FOOTER STYLE !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.footer {
+	text-align: center;
+	background-color: var(--alt-bg);
+	width: 100%;
+	padding-top: 100px;
+}
+
+.footer .top {
+	text-align: start;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.footer .top .item .logo {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.footer .top .item .text {
+	width: 300px;
+	font-size: 15px;
+}
+
+.footer .top .item .subtitle {
+	display: block;
+	color: var(--butoon-color);
+	margin-bottom: 15px;
+}
+
+.footer .top .item .link {
+	margin-bottom: 15px;
+}
+
+.footer .bottom {
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+
+.footer .bottom .text_wrap {
+	display: flex;
+}
+
+.footer .bottom .text_wrap .text {
+	margin-left: 30px;
+}
+
+
+.footer .bottom .text {
+	display: block;
+	font-size: 15px;
+}
+
+.footer .bottom .text.accent {
+	color: var(--alt-accent-color);
+}

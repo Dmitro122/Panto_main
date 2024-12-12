@@ -1,0 +1,91 @@
+/* MAIN STYLE */
+
+@media screen and (max-width: 1380px) {
+
+	header .title {
+		width: 100%;
+	}
+
+	.hero_why_chosing_us {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.materials {
+		flex-direction: column;
+
+	}
+
+	.materials .img_holder {
+		display: none;
+	}
+
+	.materials .img.second {
+		display: none;
+	}
+
+	.materials .img.third {
+		display: none;
+	}
+
+	.materials .img.first {
+		display: none;
+	}
+
+	.selling_product {
+		width: 100%;
+		padding: 0;
+	}
+
+	.selling_product .list {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.selling_product .radio_list {
+		width: 100px;
+	}
+
+	.selling_product .btn.left {
+		display: none;
+	}
+
+	.selling_product .btn.right {
+		display: none;
+	}
+
+	.list .item.card {
+		width: 400px;
+		margin-bottom: 15px;
+	}
+
+	.experiences {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.experiences .img_holder {
+		display: none;
+	}
+
+	.experiences .img {
+		display: none;
+	}
+
+	.testimonials .section {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.testimonials .section .card {
+		margin-bottom: 10px;
+	}
+
+	.testimonials .btn.left {
+		display: none;
+	}
+
+	.testimonials .btn.right {
+		display: none;
+	}
+}

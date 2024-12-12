@@ -1,0 +1,32 @@
+{
+	"cards": [
+		{
+			"id": "chair1",
+			"type": "Chair",
+			"img": "../img/product/chair.png",
+			"name": "Sakarias Armchair",
+			"price": 392
+		},
+		{
+			"id": "chair2",
+			"type": "Chair",
+			"img": "../img/product/chair1.png",
+			"name": "Baltsar Chair",
+			"price": 299
+		},
+		{
+			"id": "chair3",
+			"type": "Chair",
+			"img": "../img/product/chair2.png",
+			"name": "Anjay Chair",
+			"price": 519
+		},
+		{
+			"id": "chair4",
+			"type": "Chair",
+			"img": "../img/product/chair3.png",
+			"name": "Nyantuy Chair",
+			"price": 921
+		}
+	]
+}
